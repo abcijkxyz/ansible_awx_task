@@ -1,8 +1,5 @@
 - name: Statistics CPU Memory Disk Utilization
   hosts: all
-  become: no
-  remote_user: "{{ user }}"
-  gather_facts: no
   tasks:
     - name: "Statistics CPU Memory Disk Utilization..."
       shell: |
